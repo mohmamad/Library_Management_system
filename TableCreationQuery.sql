@@ -2,7 +2,7 @@ CREATE TABLE [Books] (
   [BookID] int,
   [Title] varchar(100),
   [Author] varchar(50),
-  [ISBN] int,
+  [ISBN] varchar(50),
   [Published_Date] Date,
   [Genre] varchar(25),
   [Shelf_Location] varchar(50),
